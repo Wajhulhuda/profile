@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Profile web page</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        font-family: "Open Sans", sans-serif;
+      }
+      .container {
+        display: grid;
+        grid-template-rows: 20% 80%;
+        grid-template-columns: 40% 60%;
+        width: 100%;
+        height: 615px;
+      }
+      .box1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: 1 / 3;
+        background-color: aqua;
+      }
+      input {
+        width: 500px;
+        height: 60px;
+        font-size: 30px;
+        padding: 0px 20px;
+        border-radius: 5px 0px 0px 5px;
+        border: none;
+      }
+      .box2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: cornsilk;
+        justify-content: center;
+        background-color: rgb(88, 57, 57);
+      }
+      .box2 img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+      }
+      h2 {
+        margin-top: 20px;
+      }
+      .box3 {
+        background-color: rgb(105, 76, 76);
+        color: cornsilk;
+      }
+      .box1 button {
+        height: 60px;
+        width: 175px;
+        font-size: 32px;
+        color: cornsilk;
+        background-color: darkgreen;
+        border: none;
+        border-radius: 0px 5px 5px 0px;
+      }
+      .box2 button {
+        height: 45px;
+        width: 140px;
+        font-size: 24px;
+        color: cornsilk;
+        background-color: darkgreen;
+        border: none;
+        border-radius: 5px;
+      }
+      .box3 h1 {
+        margin: 30px;
+      }
+      .box3 table {
+        margin: 30px;
+        text-align: left;
+        border-spacing: 27px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box box1">
+        <input type="text" placeholder="Enter Name" />
+        <button>Search</button>
+      </div>
+      <div class="box box2">
+        <div class="img">
+          <img src="po.jpg" alt="photo" />
+        </div>
+        <div class="content">
+          <h2>Wajhul Huda</h2>
+          <h3>wajhulhuda50@gmail.com</h3>
+          <button>Profile</button>
+        </div>
+      </div>
+      <div class="box box3">
+        <h1>User Details:</h1>
+        <table>
+          <tr>
+            <th>Name:</th>
+            <td>Wajhul Huda</td>
+          </tr>
+          <tr>
+            <th>City:</th>
+            <td>Barabanki</td>
+          </tr>
+          <tr>
+            <th>Email:</th>
+            <td>wajhulhuda50@gmail.com</td>
+          </tr>
+          <tr>
+            <th>Gender:</th>
+            <td>Male</td>
+          </tr>
+          <tr>
+            <th>Github:</th>
+            <td>wajhul.github.com</td>
+          </tr>
+          <tr>
+            <th>Facebook:</th>
+            <td>wajhulhuda.facebook.com</td>
+          </tr>
+          <tr>
+            <th>Instagram:</th>
+            <td>wajhul.intagram.com</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
